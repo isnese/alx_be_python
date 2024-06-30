@@ -5,9 +5,9 @@ operations = input('Choose the operation (+, -, *, /):')
 match operations:
     case '*':
         print(f'The result is {num1*num2}.')
-    case '*':
+    case '-':
         print(f'The result is {num1-num2}.')
-    case '*':
+    case '+':
         print(f'The result is {num1+num2}.')
     case '/':
         print(f'The result is {num1/num2}.')
