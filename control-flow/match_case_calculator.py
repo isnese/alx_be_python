@@ -4,11 +4,11 @@ operations = input('Choose the operation (+, -, *, /):')
 
 match operations:
     case '*':
-        print(f'The result is {num1*num2}.')
+        print(f'The result is {num1*num2:d}.')
     case '-':
-        print(f'The result is {num1-num2}.')
+        print(f'The result is {num1-num2:d}.')
     case '+':
-        print(f'The result is {num1+num2}.')
+        print(f'The result is {num1+num2:d}.')
     case '/':
     if num2 == 0 or num1 == 0 :
       print("Cannot divide by zero.")
