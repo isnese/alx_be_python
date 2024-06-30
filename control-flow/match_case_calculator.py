@@ -1,10 +1,11 @@
 num1 = int(input('Enter the first number: '))
 num2 = int(input('Enter the second number: '))
 operations = input('Choose the operation (+, -, *, /): ')
-
+result = 0
 match operations:
   case '+':
-    print(f'The result is {num1 + num2:.2f}')  # Format addition result to 2 decimals
+    result = num1 + num2:
+    print(f'The result is {result}')  # Format addition result to 2 decimals
   case '-':
     print(f'The result is {num1 - num2:.2f}')  # Format subtraction result to 2 decimals
   case '*':
