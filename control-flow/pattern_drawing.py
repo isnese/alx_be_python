@@ -4,9 +4,10 @@ size = int(input("Enter the size of the pattern: "))
 if size <= 0:
     print("Error: Please enter a positive integer.")
 else:
-    # Outer loop for rows
-    for i in range(size):
-        # Inner loop for columns
+    i = 0  # Initialize loop counter
+    while i < size:
+        # Inner loop for columns (same as before)
         for j in range(size):
-            print("*", end="")  # Print asterisk without newline
-        print()  # Print newline after each row
+            print("*", end="")
+        print()  # Newline after each row
+        i += 1  # Increment loop counter
