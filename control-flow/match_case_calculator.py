@@ -3,11 +3,11 @@ num2 = int(input('Enter the second number:'))
 operations = input('Choose the operation (+, -, *, /):')
 
 match operations:
-    case '*':
+    case *:
         print(f'The result is {num1*num2}.')
-    case '-':
+    case *:
         print(f'The result is {num1-num2}.')
-    case '+':
+    case *:
         print(f'The result is {num1+num2}.')
-    case '/':
+    case /:
         print(f'The result is {num1/num2}.')
