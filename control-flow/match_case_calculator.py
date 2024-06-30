@@ -10,4 +10,9 @@ match operations:
     case '+':
         print(f'The result is {num1+num2}.')
     case '/':
-        print(f'The result is {num1/num2}.')
+    if num2 == 0 or num1 == 0 :
+      print("Cannot divide by zero.")
+    else:
+      print(f'The result is {num1 / num2:.2f}')
+  case _:
+    print("Invalid operation")
