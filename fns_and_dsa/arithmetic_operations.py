@@ -9,5 +9,3 @@ def perform_operation(num1, num2, operation) :
          return 'Error: Division by zero is not allowed'
     elif operation == 'divide' and num1 != 0 and num2 != 0:
          return num1 / num2
-
-perform_operation(num1, num2, operation)
